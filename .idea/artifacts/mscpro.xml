@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="mscpro">
+    <output-path>$PROJECT_DIR$/out/artifacts/mscpro</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="View.PDAGUILoader" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="mscpro.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="mscproject2" />
+      </element>
+      <element id="directory" name="Database">
+        <element id="dir-copy" path="$PROJECT_DIR$/DefaultDatabase" />
+      </element>
+      <element id="directory" name="Lib">
+        <element id="library" level="project" name="lib" />
+      </element>
+      <element id="directory" name="HTMLHelpFiles">
+        <element id="dir-copy" path="$PROJECT_DIR$/HTMLHelpFiles" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="content" minHeight="0.0" minWidth="0.0" prefHeight="704.0" prefWidth="1249.0000999999975" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller.PDADesignerController">
+  <VBox fx:id="designerOption" layoutX="839.0" layoutY="9.0" minWidth="365.0" prefHeight="687.0" prefWidth="385.0" spacing="10.0">
+    <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+        <children>
+          <ToggleButton fx:id="node" mnemonicParsing="false">
+            <toggleGroup>
+              <ToggleGroup fx:id="designerToggle" />
+            </toggleGroup>
+          </ToggleButton>
+          <ToggleButton fx:id="line" mnemonicParsing="false" toggleGroup="$designerToggle" />
+          <ToggleButton fx:id="selector" mnemonicParsing="false" toggleGroup="$designerToggle" />
+        </children>
+      </HBox>
+      <Accordion fx:id="designerAccordion" minWidth="368.0" prefHeight="350.0" prefWidth="384.0">
+        <expandedPane>
+          <TitledPane fx:id="transitionPane" alignment="TOP_LEFT" animated="false" prefHeight="354.0" prefWidth="384.0" text="TransitionDetails">
+            <content>
+              <ScrollPane id="ScrollPane" fx:id="transitionScroll" prefViewportHeight="390.0" prefViewportWidth="300.0">
+                <content>
+                  <fx:include fx:id="transitionDetails" source="DesignerPopUps/transitioneditpopup.fxml" />
+                </content>
+              </ScrollPane>
+            </content>
+          </TitledPane>
+        </expandedPane>
+        <panes>
+          <TitledPane fx:id="nodePane" animated="false" minWidth="367.0" prefHeight="426.0" prefWidth="384.0" text="Node Details">
+            <content>
+              <ScrollPane id="ScrollPane" fx:id="nodeScroll" prefHeight="552.0" prefViewportHeight="650.0" prefViewportWidth="478.0" prefWidth="367.0">
+                <content>
+                  <fx:include fx:id="nodeDetails" source="DesignerPopUps/nodeeditpopup.fxml" />
+                </content>
+              </ScrollPane>
+            </content>
+          </TitledPane>
+          <fx:reference source="transitionPane" />
+        </panes>
+      </Accordion>
+    </children>
+    <padding>
+      <Insets top="20.0" />
+    </padding>
+  </VBox>
+  <ScrollPane id="ScrollPane" layoutX="14.0" layoutY="14.0" prefHeight="551.0" prefViewportHeight="619.0" prefViewportWidth="810.0">
+    <content>
+      <Pane fx:id="drawingBoard" prefHeight="619.0" prefWidth="810.0" />
+    </content>
+  </ScrollPane>
+  <HBox alignment="CENTER" layoutX="15.0" layoutY="635.0" prefHeight="69.0" prefWidth="810.0" spacing="30.0">
+    <children>
+      <Button fx:id="clearButton" mnemonicParsing="false" prefHeight="39.0" prefWidth="119.0" text="Clear Screen">
+        <font>
+          <Font name="Tahoma" size="12.0" fx:id="x1" />
+        </font>
+      </Button>
+      <Button fx:id="expandButton" font="$x1" mnemonicParsing="false" prefHeight="39.0" prefWidth="119.0" text="Expand Canvas" />
+    </children>
+  </HBox>
+  <HBox alignment="CENTER_LEFT" layoutX="300.0" layoutY="567.0" prefHeight="87.0" prefWidth="525.0" spacing="70.0">
+    <children>
+      <RadioButton fx:id="finalRadio" mnemonicParsing="false" selected="true" text="Finishes on final state" textFill="WHITE">
+        <toggleGroup>
+          <ToggleGroup fx:id="successRadio" />
+        </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="stackRadio" mnemonicParsing="false" prefWidth="105.0" text="Stack empty" textFill="WHITE" toggleGroup="$successRadio" />
+    </children>
+  </HBox>
+  <Label layoutX="80.0" layoutY="602.0" text="Success condition:" textFill="WHITE">
+    <font>
+      <Font name="Tahoma" size="14.0" />
+    </font>
+  </Label>
+</AnchorPane>

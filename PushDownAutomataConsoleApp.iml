@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="MonologFX" level="project" />
+    <orderEntry type="library" name="eventbus-1.4" level="project" />
+    <orderEntry type="library" name="guava-10.0.1" level="project" />
+    <orderEntry type="library" name="guice-3.0" level="project" />
+    <orderEntry type="library" name="javax.inject" level="project" />
+    <orderEntry type="library" name="guice-assistedinject-3.0" level="project" />
+    <orderEntry type="library" name="guice-multibindings-3.0" level="project" />
+    <orderEntry type="library" name="guice-persist-3.0" level="project" />
+    <orderEntry type="library" name="guice-throwingproviders-3.0" level="project" />
+    <orderEntry type="library" name="aopalliance" level="project" />
+    <orderEntry type="library" name="guice-grapher-3.0" level="project" />
+    <orderEntry type="library" name="guice-jmx-3.0" level="project" />
+    <orderEntry type="library" name="guice-jndi-3.0" level="project" />
+    <orderEntry type="library" name="guice-spring-3.0" level="project" />
+    <orderEntry type="library" name="guice-struts2-plugin-3.0" level="project" />
+    <orderEntry type="library" name="guice-servlet-3.0" level="project" />
+    <orderEntry type="library" name="lombok" level="project" />
+  </component>
+</module>
+

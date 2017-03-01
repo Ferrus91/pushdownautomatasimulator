@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="354.0" prefWidth="390.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller.PopUpControllers.TransitionEditPopUpController">
+  <children>
+    <Label fx:id="idLabel" layoutX="31.0" layoutY="14.0" maxWidth="300.0" minHeight="38.0" prefHeight="47.0" style="-fx-font-size: 20px;&#10; -fx-font-family: &quot;Tahoma&quot;;" />
+    <TableView id="tran" fx:id="transitionTable" layoutX="31.0" layoutY="77.0" prefHeight="190.99990000000253" prefWidth="332.0000915527344" style="-fx-background-color: lightgrey;&#10; -fx-font-family: &quot;Tahoma&quot;;">
+      <columns>
+        <TableColumn prefWidth="110.0" text="Transition" fx:id="transCharCol" />
+        <TableColumn prefWidth="110.0" text="Push" fx:id="pushStringCol" />
+        <TableColumn prefWidth="110.0" text="Pop" fx:id="popCharCol" />
+      </columns>
+    </TableView>
+    <HBox alignment="CENTER" layoutX="24.0" layoutY="268.0" prefHeight="100.0" prefWidth="332.0" spacing="20.0">
+      <children>
+        <Button fx:id="addTransitionButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="140.0" style=" -fx-font-family: &quot;Tahoma&quot;;" text="Add" />
+        <Button fx:id="deleteTransitionButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="140.0" style=" -fx-font-family: &quot;Tahoma&quot;;" text="Delete" />
+        <Button fx:id="applyButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="140.0" style="-fx-font-family: &quot;Tahoma&quot;;" text="Apply" />
+      </children>
+    </HBox>
+  </children>
+</AnchorPane>

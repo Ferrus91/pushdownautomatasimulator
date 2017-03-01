@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="623.0" minWidth="993.0000999999975" prefHeight="804.999755859375" prefWidth="1293.0000337890524" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller.MainController">
+  <children>
+    <FlowPane layoutX="200.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" />
+    <FlowPane layoutX="-30.0" layoutY="42.0" prefHeight="200.0" prefWidth="200.0" />
+    <TabPane fx:id="tabPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="780.999755859375" prefWidth="1293.0000337890524" side="LEFT" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0">
+      <tabs>
+        <Tab fx:id="runTab" text="PDA Runner">
+          <content>
+            <fx:include fx:id="pdaRunner" source="pdarunner.fxml" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="791.0" prefWidth="1299.0" />
+          </content>
+        </Tab>
+        <Tab fx:id="designTab" text="PDA Designer">
+          <content>
+            <fx:include fx:id="pdaDesigner" source="pdadesigner.fxml" prefHeight="779.0" prefWidth="1352.000244140625" />
+          </content>
+        </Tab>
+        <Tab fx:id="databaseTab" text="PDA Database">
+          <content>
+            <fx:include fx:id="pdaDatabase" source="pdadatabase.fxml" prefHeight="435.0" prefWidth="544.0" />
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+    <MenuBar layoutX="0.0" layoutY="0.0" prefWidth="1299.0">
+      <menus>
+        <Menu mnemonicParsing="true" text="_File">
+          <items>
+            <MenuItem fx:id="saveItem" mnemonicParsing="true" text="_Save" />
+            <MenuItem fx:id="closeItem" mnemonicParsing="true" text="_Close" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="true" text="_Help">
+          <items>
+            <MenuItem fx:id="helpItem" mnemonicParsing="true" text="_PDA App Help" />
+            <MenuItem fx:id="aboutItem" mnemonicParsing="true" text="_About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </children>
+</AnchorPane>

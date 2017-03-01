@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Automata canvasMultiply="1" isLMachine="false">
+    <Node x="105" y="216" id="52495ce1-d186-4344-a645-83d93f9b42bf" label="c" isStartNode="false" isFinalNode="false" isNodeDown="false">
+        <Relation fromNodeId="52495ce1-d186-4344-a645-83d93f9b42bf" toNodeId="9bea7ca6-e1e1-4e30-9b78-f2f62f337c39" key="9bea7ca6-e1e1-4e30-9b78-f2f62f337c39-52495ce1-d186-4344-a645-83d93f9b42bf">
+            <Transition transitionChar="d" pushString="def" popChar="d" key="ddefd"/>
+        </Relation>
+    </Node>
+    <Node x="533" y="266" id="4ecf664f-d696-4345-9c70-19cc7db5ce26" label="b" isStartNode="false" isFinalNode="true" isNodeDown="false"/>
+    <Node x="313" y="277" id="9bea7ca6-e1e1-4e30-9b78-f2f62f337c39" label="a" isStartNode="true" isFinalNode="false" isNodeDown="true">
+        <Relation fromNodeId="9bea7ca6-e1e1-4e30-9b78-f2f62f337c39" toNodeId="52495ce1-d186-4344-a645-83d93f9b42bf" key="52495ce1-d186-4344-a645-83d93f9b42bf-9bea7ca6-e1e1-4e30-9b78-f2f62f337c39">
+            <Transition transitionChar="b" pushString="bcd" popChar="b" key="bbcdb"/>
+        </Relation>
+        <Relation fromNodeId="9bea7ca6-e1e1-4e30-9b78-f2f62f337c39" toNodeId="9bea7ca6-e1e1-4e30-9b78-f2f62f337c39" key="9bea7ca6-e1e1-4e30-9b78-f2f62f337c39-9bea7ca6-e1e1-4e30-9b78-f2f62f337c39">
+            <Transition transitionChar="a" pushString="abc" popChar="" key="aabca"/>
+        </Relation>
+        <Relation fromNodeId="9bea7ca6-e1e1-4e30-9b78-f2f62f337c39" toNodeId="4ecf664f-d696-4345-9c70-19cc7db5ce26" key="4ecf664f-d696-4345-9c70-19cc7db5ce26-9bea7ca6-e1e1-4e30-9b78-f2f62f337c39">
+            <Transition transitionChar="" pushString="" popChar="" key=""/>
+        </Relation>
+    </Node>
+</Automata>

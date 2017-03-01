@@ -1,0 +1,2084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="mscpro" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/Controller/PDADesignerController.java" line="184" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/src/XStreamStaging/Serialize.java" line="67" mnemonic="2" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/junit-4.10.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/View/stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/AnimationModelTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DependencyInjection/ConnectionContextProvider.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/DatabaseModelTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DefaultDatabase/DefaultDatabase.h2.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DefaultDatabase/DefaultDatabase.lock.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/DrawingModelTests.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/MonologFX.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_dialogs_0_0_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pdafailref.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/pdatest.xml" />
+      <change type="MOVED" beforePath="C:\Users\Samuel Keays\mscproject2\src\DependencyInjection\XSTreamerModule.java" afterPath="$PROJECT_DIR$/src/DependencyInjection/XStreamerModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PopUpControllers/AddDirectoryDialogController.java" afterPath="$PROJECT_DIR$/src/Controller/PopUpControllers/AddDirectoryDialogController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/AnimationModel/Automata.java" afterPath="$PROJECT_DIR$/src/Model/AnimationModel/Automata.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/RunnerActionStrategies/CircleStrategies.java" afterPath="$PROJECT_DIR$/src/Controller/RunnerActionStrategies/CircleStrategies.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EditObjectFactory/ConcreteEditObjectFactory.java" afterPath="$PROJECT_DIR$/src/EditObjectFactory/ConcreteEditObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Database/ConnectionContext.java" afterPath="$PROJECT_DIR$/src/Database/ConnectionContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DependencyInjection/ConnectionContextModule.java" afterPath="$PROJECT_DIR$/src/DependencyInjection/ConnectionContextModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EventObjects/ConnectionCreationEvent.java" afterPath="$PROJECT_DIR$/src/EventObjects/ConnectionCreationEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppLoaders/ConsoleApp.java" afterPath="$PROJECT_DIR$/src/AppLoaders/ConsoleApp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphicsElements/DatabaseTextFieldTreeCell.java" afterPath="$PROJECT_DIR$/src/GraphicsElements/DatabaseTextFieldTreeCell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DefaultDatabase/DefaultDatabase.trace.db" afterPath="$PROJECT_DIR$/DefaultDatabase/DefaultDatabase.trace.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EventObjects/DeleteAutomataEvent.java" afterPath="$PROJECT_DIR$/src/EventObjects/DeleteAutomataEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EventObjects/DeleteDirectoryEvent.java" afterPath="$PROJECT_DIR$/src/EventObjects/DeleteDirectoryEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils/DialogueUtils.java" afterPath="$PROJECT_DIR$/src/Utils/DialogueUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DrawingModel/DrawingLists.java" afterPath="$PROJECT_DIR$/src/Model/DrawingModel/DrawingLists.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DrawingModel/EditTransitions.java" afterPath="$PROJECT_DIR$/src/Model/DrawingModel/EditTransitions.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphicsElements/EditingCellChar.java" afterPath="$PROJECT_DIR$/src/GraphicsElements/EditingCellChar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DependencyInjection/EventBusServer/EventBusServer.java" afterPath="$PROJECT_DIR$/src/DependencyInjection/EventBusServer/EventBusServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DependencyInjection/EventBusServer/EventBusServerModule.java" afterPath="$PROJECT_DIR$/src/DependencyInjection/EventBusServer/EventBusServerModule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PDAGraphicElements/HandleGenerator.java" afterPath="$PROJECT_DIR$/src/PDAGraphicElements/HandleGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PopUpControllers/HelpController.java" afterPath="$PROJECT_DIR$/src/Controller/PopUpControllers/HelpController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/AnimationModel/IAutomata.java" afterPath="$PROJECT_DIR$/src/Model/AnimationModel/IAutomata.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Database/IConnectionContext.java" afterPath="$PROJECT_DIR$/src/Database/IConnectionContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignStrategies/IDesignStrategy.java" afterPath="$PROJECT_DIR$/src/DesignStrategies/IDesignStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EditObjectFactory/IEditObjectFactory.java" afterPath="$PROJECT_DIR$/src/EditObjectFactory/IEditObjectFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PopUpControllers/NodeEditPopUpController.java" afterPath="$PROJECT_DIR$/src/Controller/PopUpControllers/NodeEditPopUpController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EventObjects/NonDeterministicJumpEvent.java" afterPath="$PROJECT_DIR$/src/EventObjects/NonDeterministicJumpEvent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PDADatabaseController.java" afterPath="$PROJECT_DIR$/src/Controller/PDADatabaseController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PDADesignerController.java" afterPath="$PROJECT_DIR$/src/Controller/PDADesignerController.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\PDAGUILoader.java" afterPath="$PROJECT_DIR$/src/View/PDAGUILoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PDAGraphicElements/PDALoopRelation.java" afterPath="$PROJECT_DIR$/src/PDAGraphicElements/PDALoopRelation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PDARunnerController.java" afterPath="$PROJECT_DIR$/src/Controller/PDARunnerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppLoaders/PreXMLExampleKludgeNonDeterminism.java" afterPath="$PROJECT_DIR$/src/AppLoaders/PreXMLExampleKludgeNonDeterminism.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ReflexiveStrategy/ReflexiveStrategy.java" afterPath="$PROJECT_DIR$/src/ReflexiveStrategy/ReflexiveStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Model/DrawingModel/Relation.java" afterPath="$PROJECT_DIR$/src/Model/DrawingModel/Relation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DrawingTemplate/RelevantNodeFactory.java" afterPath="$PROJECT_DIR$/src/DrawingTemplate/RelevantNodeFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DesignStrategies/SelectorStrategy.java" afterPath="$PROJECT_DIR$/src/DesignStrategies/SelectorStrategy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XStreamStaging/Serialize.java" afterPath="$PROJECT_DIR$/src/XStreamStaging/Serialize.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XStreamStaging/StagingAutomata.java" afterPath="$PROJECT_DIR$/src/XStreamStaging/StagingAutomata.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XStreamStaging/StagingLoader.java" afterPath="$PROJECT_DIR$/src/XStreamStaging/StagingLoader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XStreamStaging/StagingNode.java" afterPath="$PROJECT_DIR$/src/XStreamStaging/StagingNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XStreamStaging/StagingRelation.java" afterPath="$PROJECT_DIR$/src/XStreamStaging/StagingRelation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XStreamStaging/StagingTransition.java" afterPath="$PROJECT_DIR$/src/XStreamStaging/StagingTransition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DrawingTemplate/TextBoxBoundsGenerator.java" afterPath="$PROJECT_DIR$/src/DrawingTemplate/TextBoxBoundsGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/PopUpControllers/TransitionEditPopUpController.java" afterPath="$PROJECT_DIR$/src/Controller/PopUpControllers/TransitionEditPopUpController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Database/TreeNodeType.java" afterPath="$PROJECT_DIR$/src/Database/TreeNodeType.java" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\HelpPopUps\about.fxml" afterPath="$PROJECT_DIR$/src/View/HelpPopUps/about.fxml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\DatabaseDialog\addautomata.fxml" afterPath="$PROJECT_DIR$/src/View/DatabaseDialog/addautomata.fxml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\DatabaseDialog\adddirectory.fxml" afterPath="$PROJECT_DIR$/src/View/DatabaseDialog/adddirectory.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Properties/database.properties" afterPath="$PROJECT_DIR$/src/Properties/database.properties" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\HelpPopUps\help.fxml" afterPath="$PROJECT_DIR$/src/View/HelpPopUps/help.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/mscpro.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/mscpro.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mscproject2.iml" afterPath="$PROJECT_DIR$/mscproject2.iml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\DesignerPopUps\nodeeditpopup.fxml" afterPath="$PROJECT_DIR$/src/View/DesignerPopUps/nodeeditpopup.fxml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\pda.fxml" afterPath="$PROJECT_DIR$/src/View/pda.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XStreamStaging/pda.xsd" afterPath="$PROJECT_DIR$/src/XStreamStaging/pda.xsd" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\pdadatabase.fxml" afterPath="$PROJECT_DIR$/src/View/pdadatabase.fxml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\pdadesigner.fxml" afterPath="$PROJECT_DIR$/src/View/pdadesigner.fxml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\pdarunner.fxml" afterPath="$PROJECT_DIR$/src/View/pdarunner.fxml" />
+      <change type="MODIFICATION" beforePath="C:\Users\Samuel Keays\mscproject2\src\View\DesignerPopUps\transitioneditpopup.fxml" afterPath="$PROJECT_DIR$/src/View/DesignerPopUps/transitioneditpopup.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="b7e81ac7-3dd1-47e4-a7d9-c089c9347778" name="Rejected commit: Default" comment="GETTINGTHERE" />
+    <ignored path="pushdownautomatasimulator.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$USER_HOME$/untitled6/.idea/workspace.xml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372198064636" ignored="false" />
+    <file path="/TransitionRelation.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378862528133" ignored="false" />
+    <file path="/Transition.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378862499651" ignored="false" />
+    <file path="/PushDownNode.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378862355074" ignored="false" />
+    <file path="/PushDownStack.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378862474961" ignored="false" />
+    <file path="/InstantaneousDescription.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378862192347" ignored="false" />
+    <file path="/TransitionException.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377558018361" ignored="false" />
+    <file path="/fragment.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379105328273" ignored="false" />
+    <file path="/IAutomata.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377772632052" ignored="false" />
+    <file path="/Automata.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379118240052" ignored="false" />
+    <file path="/ConsoleApp.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378857637880" ignored="false" />
+    <file path="/ITransition.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374614839574" ignored="false" />
+    <file path="/IPushDownStack.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372193603929" ignored="false" />
+    <file path="/IPushDownNode.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376264595123" ignored="false" />
+    <file path="/PreXMLExampleKludge.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378857698712" ignored="false" />
+    <file path="/IInstantaneousDescription.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377554358428" ignored="false" />
+    <file path="/HelloWorld.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372195060309" ignored="false" />
+    <file path="/PDAGUILoader.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379102852863" ignored="false" />
+    <file path="/Dummy.txt" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379126132572" ignored="false" />
+    <file path="/pda.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377217720951" ignored="false" />
+    <file path="/RunController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378830666968" ignored="false" />
+    <file path="/runcanvas.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374539939490" ignored="false" />
+    <file path="/pdarunner.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379105227640" ignored="false" />
+    <file path="/pdadesigner.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376857597570" ignored="false" />
+    <file path="/java.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372454675827" ignored="false" />
+    <file path="/PDADatabaseController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379094913789" ignored="false" />
+    <file path="/PDADesignerController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378857559403" ignored="false" />
+    <file path="/PDARunnerController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379105530062" ignored="false" />
+    <file path="/pdadatabase.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377342780603" ignored="false" />
+    <file path="/MainController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378829347216" ignored="false" />
+    <file path="/Main.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376759080236" ignored="false" />
+    <file path="/PDAApplication.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372515930579" ignored="false" />
+    <file path="/EventBusModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835682213" ignored="false" />
+    <file path="$USER_HOME$/PokerProjectCreatedUnderDuressByAri/.idea/misc.xml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372995198786" ignored="false" />
+    <file path="$USER_HOME$/PokerProjectCreatedUnderDuressByAri/.idea/workspace.xml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372995198786" ignored="false" />
+    <file path="/AutomataChangeEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858771749" ignored="false" />
+    <file path="/IDrawingStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374088117562" ignored="false" />
+    <file path="/INode.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376843846948" ignored="false" />
+    <file path="/ILink.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372997240178" ignored="false" />
+    <file path="/Database.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372999338992" ignored="false" />
+    <file path="/Drawing.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372999382264" ignored="false" />
+    <file path="/Animation.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1372999413727" ignored="false" />
+    <file path="/NodeList.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378862254225" ignored="false" />
+    <file path="/NodeConnections.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378828338559" ignored="false" />
+    <file path="/NodeConnection.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378828251279" ignored="false" />
+    <file path="/FullDisplayBox.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376259202030" ignored="false" />
+    <file path="/stackcanvas.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374525665187" ignored="false" />
+    <file path="/stringcanvas.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374786649235" ignored="false" />
+    <file path="/ConcreteDrawingTemplate.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378836747081" ignored="false" />
+    <file path="/DrawingTemplateModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835628513" ignored="false" />
+    <file path="/IDrawingTemplate.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376002494942" ignored="false" />
+    <file path="/TransitionDrawingObject.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858274504" ignored="false" />
+    <file path="/pdaapp.properties" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376268027712" ignored="false" />
+    <file path="/StackIOString.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378864097138" ignored="false" />
+    <file path="/RightClickableCell.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378861353741" ignored="false" />
+    <file path="/MenuRemovalHandler.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374327644967" ignored="false" />
+    <file path="/CharacterProcessEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374413461406" ignored="false" />
+    <file path="/PDACompleteEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859971429" ignored="false" />
+    <file path="/TransitionErrorEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860815089" ignored="false" />
+    <file path="/StackController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378830724491" ignored="false" />
+    <file path="/StringController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378834308129" ignored="false" />
+    <file path="/ViewUtilities.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378864525647" ignored="false" />
+    <file path="/ZoomedEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374704070818" ignored="false" />
+    <file path="/TransitionAnimation.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374609891227" ignored="false" />
+    <file path="/AnimationTemplate.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374611892844" ignored="false" />
+    <file path="$PROJECT_DIR$/skeays-push-down-automata-simulation-bbk-project-2013-b6597b1c862b/PushDownAutomataConsoleApp/src/DrawingTemplate/QuadraticCurve.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374610222688" ignored="false" />
+    <file path="/AnimationEventHanlder.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374612609655" ignored="false" />
+    <file path="/Incrementor.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374613122935" ignored="false" />
+    <file path="/resetAutomata.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374624447442" ignored="false" />
+    <file path="/Blink.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374624365131" ignored="false" />
+    <file path="/ResetAutomata.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377555636328" ignored="false" />
+    <file path="/TimelineModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374697224510" ignored="false" />
+    <file path="/KeyFrameModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374695934550" ignored="false" />
+    <file path="/ActionStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378829276884" ignored="false" />
+    <file path="/ActionStrategyModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835224472" ignored="false" />
+    <file path="/IActionStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374698723614" ignored="false" />
+    <file path="/EventBusInstance.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374702324979" ignored="false" />
+    <file path="/EventObject.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374702377781" ignored="false" />
+    <file path="/EventBusChannelModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1374702660650" ignored="false" />
+    <file path="/EventBusServer.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378959283896" ignored="false" />
+    <file path="/EventBusServerModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835177689" ignored="false" />
+    <file path="/IEventBusServer.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376695554379" ignored="false" />
+    <file path="/AnimationModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835246424" ignored="false" />
+    <file path="/DrawPane.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1375390237786" ignored="false" />
+    <file path="/CurrentSelection.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1375630402069" ignored="false" />
+    <file path="/IDesignStratgey.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1375652304674" ignored="false" />
+    <file path="/NodeStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378837384640" ignored="false" />
+    <file path="/Node.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376149659690" ignored="false" />
+    <file path="/DrawingLists.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379113902730" ignored="false" />
+    <file path="/DrawingNode.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378863294378" ignored="false" />
+    <file path="/Relation.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377968243241" ignored="false" />
+    <file path="/LineStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378837358748" ignored="false" />
+    <file path="/NodeCreationEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859712903" ignored="false" />
+    <file path="/DrawingNodeList.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1375653609819" ignored="false" />
+    <file path="/CurrentDrawEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1375748698125" ignored="false" />
+    <file path="/IDrawingTemplateFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376000196479" ignored="false" />
+    <file path="/IEditTemplate.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376947555528" ignored="false" />
+    <file path="/ConcreteEditTemplate.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378836935992" ignored="false" />
+    <file path="/IGUITemplate.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376002511632" ignored="false" />
+    <file path="/IGUIFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376001255122" ignored="false" />
+    <file path="/IDrawingFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376001265513" ignored="false" />
+    <file path="/IEditFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376001314141" ignored="false" />
+    <file path="/EditTemplateModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835661993" ignored="false" />
+    <file path="/IDesignStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378837298575" ignored="false" />
+    <file path="/SelectorStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378837465516" ignored="false" />
+    <file path="/DecoratedShape.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376148451858" ignored="false" />
+    <file path="/IDecoratedShapeBuilder.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376147907664" ignored="false" />
+    <file path="/NodeDecorator.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376148479219" ignored="false" />
+    <file path="/IDecoratedShape.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376148430681" ignored="false" />
+    <file path="/PDALoopRelation.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378863787256" ignored="false" />
+    <file path="/UUIDDecoratedShape.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376268467602" ignored="false" />
+    <file path="/PDANode.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378863659834" ignored="false" />
+    <file path="/PDATransRelation.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378743337996" ignored="false" />
+    <file path="/AbstractEditObjectFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376151650892" ignored="false" />
+    <file path="/ConcreteEditObjectFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858423597" ignored="false" />
+    <file path="/TransitionMousePressContext.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378828536811" ignored="false" />
+    <file path="/IEditObjectFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376257458571" ignored="false" />
+    <file path="/ArrowHeadBuilder.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378863404069" ignored="false" />
+    <file path="/ConcreteArrowHead.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376257918428" ignored="false" />
+    <file path="/fragment.js2" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378865701712" ignored="false" />
+    <file path="/a.dummy" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378503723893" ignored="false" />
+    <file path="/ConcreteArrowHeadBuilder.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376344000497" ignored="false" />
+    <file path="$PROJECT_DIR$/skeays-push-down-automata-simulation-bbk-project-2013-b6597b1c862b/PushDownAutomataConsoleApp/src/Controller/RunnerActionStrategies/IActionStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376258868464" ignored="false" />
+    <file path="/OverlayBoxStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378828513396" ignored="false" />
+    <file path="/StackSizeWarning.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377555507894" ignored="false" />
+    <file path="/NodeFinder.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376346753290" ignored="false" />
+    <file path="/ConnectionCreationEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858933039" ignored="false" />
+    <file path="/DialogueUtils.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379120955661" ignored="false" />
+    <file path="/NewRelationCycleAdapter.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378834432111" ignored="false" />
+    <file path="$USER_HOME$/skeays-push-down-automata-simulation-bbk-project-2013-b6597b1c862b/skeays-push-down-automata-simulation-bbk-project-2013-b6597b1c862b/PushDownAutomataConsoleApp/src/LoggingAspect/Logger.aj" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376737522254" ignored="false" />
+    <file path="/Logger.aj" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376737996858" ignored="false" />
+    <file path="/EventBusLogger.aj" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376746642542" ignored="false" />
+    <file path="/EventBusPostLogger.aj" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376763572410" ignored="false" />
+    <file path="/EventBusHandleLogger.aj" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376753896674" ignored="false" />
+    <file path="$USER_HOME$/aspectTest/src/sample/Aspecttester.aj" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376758824434" ignored="false" />
+    <file path="/Aspecttester.aj" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376758870310" ignored="false" />
+    <file path="$USER_HOME$/aspectTest/src/sample/AspectTester.aj" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376760701233" ignored="false" />
+    <file path="$USER_HOME$/aspectTest/src/sample/Main.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376759094668" ignored="false" />
+    <file path="$USER_HOME$/aspectTest/.idea/workspace.xml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376780123191" ignored="false" />
+    <file path="$USER_HOME$/aspectTest/.idea/modules.xml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376769403901" ignored="false" />
+    <file path="$USER_HOME$/aspectTest/.idea/ant.xml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376758994995" ignored="false" />
+    <file path="/AspectTester.aj" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376760576885" ignored="false" />
+    <file path="/TransitionDetailsController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378829027083" ignored="false" />
+    <file path="/TransitionEditController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376860627138" ignored="false" />
+    <file path="$USER_HOME$/aspectTest/.idea/compiler.xml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376763834720" ignored="false" />
+    <file path="/IAutomataModel.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378499760189" ignored="false" />
+    <file path="/SelectableElement.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376774733273" ignored="false" />
+    <file path="/ReflexiveStrategy.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378863905631" ignored="false" />
+    <file path="/ReflexiveEventCaller.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376778490706" ignored="false" />
+    <file path="/DeletePDAElementByIDEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376778692340" ignored="false" />
+    <file path="/DeleteByIdEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859130269" ignored="false" />
+    <file path="/SelectIdEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860659642" ignored="false" />
+    <file path="/AddTransitionStep.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377770534475" ignored="false" />
+    <file path="/HandleGenerator.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378863483155" ignored="false" />
+    <file path="/ITransCoords.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376845621091" ignored="false" />
+    <file path="/CircleEventHandler.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378836270626" ignored="false" />
+    <file path="/ILoopCoords.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376845565984" ignored="false" />
+    <file path="/NodeEditController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376857800405" ignored="false" />
+    <file path="/EditNodeEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376844327018" ignored="false" />
+    <file path="/RequestNodeDetails.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377770543517" ignored="false" />
+    <file path="/nodeeditpopup.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376856070861" ignored="false" />
+    <file path="/transitioneditpopup.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376859746795" ignored="false" />
+    <file path="/RequestConnectionDetails.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377770550375" ignored="false" />
+    <file path="/DeselectAll.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376858658795" ignored="false" />
+    <file path="/DeselectAllEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859228510" ignored="false" />
+    <file path="/CloseAccordion.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376859104628" ignored="false" />
+    <file path="/TransitionEditPopUpController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378829119912" ignored="false" />
+    <file path="/DragIdEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859352162" ignored="false" />
+    <file path="/OpenNodeAccordionEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859871138" ignored="false" />
+    <file path="/OpenRelationAccordionEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859935858" ignored="false" />
+    <file path="/NodeEditPopUpController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378828961380" ignored="false" />
+    <file path="/ClosePanes.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376955807807" ignored="false" />
+    <file path="/PaneHandler.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1376956975330" ignored="false" />
+    <file path="/GUITemplateAbstractClass.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377031866878" ignored="false" />
+    <file path="/SelfConnectionAddEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860714964" ignored="false" />
+    <file path="/DeleteContextMenu.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377035559754" ignored="false" />
+    <file path="/ContextMenuWithID.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378861030816" ignored="false" />
+    <file path="/DeleteIfSelectedEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377037179955" ignored="false" />
+    <file path="/SaveEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860625237" ignored="false" />
+    <file path="/XSTreamerModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377212364556" ignored="false" />
+    <file path="/Serialize.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378864637836" ignored="false" />
+    <file path="/help.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377214299290" ignored="false" />
+    <file path="/about.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377214188120" ignored="false" />
+    <file path="/AboutController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378828601895" ignored="false" />
+    <file path="/StagingAutomata.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378864669956" ignored="false" />
+    <file path="/StagingNode.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378956438971" ignored="false" />
+    <file path="/StagingRelation.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378956754990" ignored="false" />
+    <file path="/StagingTransition.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378864860677" ignored="false" />
+    <file path="/HelpController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379120302912" ignored="false" />
+    <file path="/a.sql" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379110333674" ignored="false" />
+    <file path="/dummy.sql" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379110313713" ignored="false" />
+    <file path="/Data Source" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379110434543" ignored="false" />
+    <file path="/database.properties" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378688793719" ignored="false" />
+    <file path="/ConnectionFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377351588026" ignored="false" />
+    <file path="/ConnectionContext.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379095707967" ignored="false" />
+    <file path="/IConnectionContext.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379095766241" ignored="false" />
+    <file path="/ConnectionContextFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377359190721" ignored="false" />
+    <file path="/ConnectionContextModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379125175458" ignored="false" />
+    <file path="/ConnectionModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377360473832" ignored="false" />
+    <file path="/RedrawTreeView.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377362369454" ignored="false" />
+    <file path="/DatabaseDirectory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378834989635" ignored="false" />
+    <file path="/RequestConnectionEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377364183732" ignored="false" />
+    <file path="/TreeNodeObject.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835034278" ignored="false" />
+    <file path="/TreeNodeType.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377381567780" ignored="false" />
+    <file path="/DatabaseAutomata.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378834981112" ignored="false" />
+    <file path="/DatabaseRoot.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378834997317" ignored="false" />
+    <file path="/AddDirectoryDialogController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378828742682" ignored="false" />
+    <file path="/addDirectory.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377384920483" ignored="false" />
+    <file path="/NewDirectoryEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835706506" ignored="false" />
+    <file path="/RightClickableRow.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377990417037" ignored="false" />
+    <file path="/EditingCell.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377390027346" ignored="false" />
+    <file path="/EditingCellChar.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378861190858" ignored="false" />
+    <file path="/EditingCellString.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377390261912" ignored="false" />
+    <file path="/EditingCellTransitionChar.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377392429534" ignored="false" />
+    <file path="/TransitionTableFactory.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377394057459" ignored="false" />
+    <file path="/StagingLoader.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378956871415" ignored="false" />
+    <file path="/temp.xml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377452401954" ignored="false" />
+    <file path="/temp.xsd" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377452787515" ignored="false" />
+    <file path="/DeleteDirectoryEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859201026" ignored="false" />
+    <file path="/DeleteAutomataEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859084631" ignored="false" />
+    <file path="/insertAutomataEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377460356956" ignored="false" />
+    <file path="/addautomata.fxml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377473791455" ignored="false" />
+    <file path="/AddAutomataDialogController.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378828680587" ignored="false" />
+    <file path="/NewAutomataEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377811497737" ignored="false" />
+    <file path="/DatabaseTextFieldTreeCell.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378861110048" ignored="false" />
+    <file path="/UpdateDirectoryEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860976817" ignored="false" />
+    <file path="/UpdateAutomataEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860875576" ignored="false" />
+    <file path="/ResetAnimationAutomataEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377555786928" ignored="false" />
+    <file path="/PreXMLExampleKludgeNonDeterminism.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378909633943" ignored="false" />
+    <file path="/NonDeterministicJumpEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859802123" ignored="false" />
+    <file path="/LoadAutomataEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859471923" ignored="false" />
+    <file path="/HashMapValueOnlyConverter.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377726624124" ignored="false" />
+    <file path="/DeactivateAnimationButtonsEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859048708" ignored="false" />
+    <file path="/ActivateAnimationButtonsEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858471952" ignored="false" />
+    <file path="/ReloadAutomataEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860088644" ignored="false" />
+    <file path="/UpdateAutomataXML.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377770303707" ignored="false" />
+    <file path="/RequestPaneRedraw.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377770521976" ignored="false" />
+    <file path="/setDirtyFileEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377770977046" ignored="false" />
+    <file path="/ConsoleCommanderParams.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377773111652" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/LoaderValidator/src/main/java/ValidationRunner/ValidationRunner.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377773525542" ignored="false" />
+    <file path="/ValidationRunner.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377773485005" ignored="false" />
+    <file path="/InsertAutomataEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859439532" ignored="false" />
+    <file path="/RemoveNullsEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377812560840" ignored="false" />
+    <file path="/pda.xsd" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377952061993" ignored="false" />
+    <file path="/SetAutomataDBDetailsEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860809202" ignored="false" />
+    <file path="/MapConverterRelation.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1377974517233" ignored="false" />
+    <file path="/TransitionTableBuilder.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378828564347" ignored="false" />
+    <file path="/deregisterEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378499653415" ignored="false" />
+    <file path="/DrawingListModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835639751" ignored="false" />
+    <file path="/AutomataModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835268116" ignored="false" />
+    <file path="/*.regexp" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379119417123" ignored="false" />
+    <file path="/AbstractTransitionObject.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378836241545" ignored="false" />
+    <file path="/MoveAutomataEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859510467" ignored="false" />
+    <file path="/CreateNullGraph.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378834345837" ignored="false" />
+    <file path="/ConcereteSugiyamaAdapter.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378863935725" ignored="false" />
+    <file path="/XStreamerModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378835746766" ignored="false" />
+    <file path="/ConcreteArrowMapBuilder.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378836284160" ignored="false" />
+    <file path="/CircleStrategies.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378857501376" ignored="false" />
+    <file path="/CircleStratgiesModule.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378857240428" ignored="false" />
+    <file path="/ICircleStrategies.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378857537819" ignored="false" />
+    <file path="/StartWedgeCoordinates.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378857937757" ignored="false" />
+    <file path="/TextBoxBoundsGenerator.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858116997" ignored="false" />
+    <file path="/TransitionEditObject.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858374943" ignored="false" />
+    <file path="/ChangeAutomataType.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858863278" ignored="false" />
+    <file path="/CanvasResizeEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858869772" ignored="false" />
+    <file path="/ConnectionAddEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858844757" ignored="false" />
+    <file path="/ClosePanesEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858851427" ignored="false" />
+    <file path="/ClearDrawingScreenEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378858857647" ignored="false" />
+    <file path="/DirtyFileEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859261447" ignored="false" />
+    <file path="/EditConnectionEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859373261" ignored="false" />
+    <file path="/NewStringEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378859650619" ignored="false" />
+    <file path="/RequestNodeDetailsEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860229709" ignored="false" />
+    <file path="/RequestPaneRedrawEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860251064" ignored="false" />
+    <file path="/StackSizeWarningEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860805555" ignored="false" />
+    <file path="/UpdateAutomataXMLEvent.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378860923548" ignored="false" />
+    <file path="/RestrictiveTextField.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378861298752" ignored="false" />
+    <file path="/PedVizBuilder.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378863983381" ignored="false" />
+    <file path="/PointCollator.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378864005931" ignored="false" />
+    <file path="/log4j.properties" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378866627855" ignored="false" />
+    <file path="/AnimationModelTests.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378941606964" ignored="false" />
+    <file path="/DrawingModelTests.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378924275092" ignored="false" />
+    <file path="/DatabaseModelTests.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378957204453" ignored="false" />
+    <file path="/EditTransitions.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378937732407" ignored="false" />
+    <file path="/pdafailref.xml" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378942446973" ignored="false" />
+    <file path="/ConnectionContextModuleMaker.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1378958623578" ignored="false" />
+    <file path="/ConnectionContextProvider.java" changelist="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" time="1379105775116" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/pushdownautomatasimulator$PDAGUILoader.coverage" NAME="PDAGUILoader Coverage Results" MODIFIED="1376056579416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>View.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/Model/DrawingModel/DrawingLists.java" line="573" class="Model.DrawingModel.DrawingLists" package="Model.DrawingModel">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Model/DrawingModel/DrawingLists.java" line="647" class="Model.DrawingModel.DrawingLists" package="Model.DrawingModel">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Database/ConnectionContext.java" line="350" class="Database.ConnectionContext" package="Database">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/DrawingModelTests.java" line="125" class="DrawingModelTests" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/DatabaseModelTests.java" line="56" class="DatabaseModelTests" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/test/DatabaseModelTests.java" line="129" class="DatabaseModelTests" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Database/ConnectionContext.java" line="275" class="Database.ConnectionContext" package="Database">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Controller/PDADatabaseController.java" line="178" class="Controller.PDADatabaseController$3" package="Controller">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Database/ConnectionContext.java" line="202" class="Database.ConnectionContext" package="Database">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Model/AnimationModel/Automata.java" line="175" class="Model.AnimationModel.Automata" package="Model.AnimationModel">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="DiffToolSettings">
+    <option name="WHITESPACES" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pushdownautomatasimulator" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Automata.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/AnimationModel/Automata.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="41" selection-start="387" selection-end="387" vertical-scroll-proportion="240.72">
+              <folding>
+                <element signature="e#719#730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransitionEditPopUpController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/PopUpControllers/TransitionEditPopUpController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="7" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="39" selection-start="3274" selection-end="3274" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelpController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/PopUpControllers/HelpController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="7" selection-start="1070" selection-end="1300" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StackIOString.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utils/StackIOString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DialogueUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Utils/DialogueUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="64" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PDADatabaseController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/PDADatabaseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="10" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionContextModule.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DependencyInjection/ConnectionContextModule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="48" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionContextProvider.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DependencyInjection/ConnectionContextProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.27960527">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Properties/database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="45" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/DependencyInjection/EventBusServer/EventBusServer.java" />
+        <option value="$PROJECT_DIR$/src/Controller/PDADatabaseController.java" />
+        <option value="$PROJECT_DIR$/src/Database/ConnectionContext.java" />
+        <option value="$PROJECT_DIR$/src/Database/IConnectionContext.java" />
+        <option value="$PROJECT_DIR$/src/View/PDAGUILoader.java" />
+        <option value="$PROJECT_DIR$/src/View/pdarunner.fxml" />
+        <option value="$PROJECT_DIR$/src/Controller/PDARunnerController.java" />
+        <option value="$PROJECT_DIR$/src/DependencyInjection/ConnectionContextProvider.java" />
+        <option value="db-console:/1c3838d1/99ff1924-d14f-4304-9bc5-0d7b4ddb41b8/" />
+        <option value="$PROJECT_DIR$/src/Model/DrawingModel/DrawingLists.java" />
+        <option value="$PROJECT_DIR$/src/AppLoaders/ConsoleApp.java" />
+        <option value="$PROJECT_DIR$/src/Model/AnimationModel/Automata.java" />
+        <option value="$PROJECT_DIR$/src/Controller/PopUpControllers/HelpController.java" />
+        <option value="$PROJECT_DIR$/src/Utils/DialogueUtils.java" />
+        <option value="$PROJECT_DIR$/src/Properties/database.properties" />
+        <option value="$PROJECT_DIR$/src/DependencyInjection/ConnectionContextModule.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1296" />
+    <option name="height" value="776" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XStreamStaging" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Properties" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DependencyInjection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DependencyInjection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EventBusServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PopUpControllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="report" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLHelpFiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DefaultDatabase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mscproject2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/MonologFX.jar!/" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="Database.TableEditor.Splitter" value="0.9" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="GraphicsElements" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Samuel Keays\mscproject2\lib" />
+      <recent name="C:\Users\Samuel Keays\mscproject2\src\View" />
+      <recent name="C:\Users\Samuel Keays\mscproject2\DefaultDatabase" />
+      <recent name="C:\Users\Samuel Keays\mscproject2\src" />
+      <recent name="C:\Users\Samuel Keays\skeays-push-down-automata-simulation-bbk-project-2013-b6597b1c862b\skeays-push-down-automata-simulation-bbk-project-2013-b6597b1c862b\PushDownAutomataConsoleApp\src\View" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="Controller.RunnerActionStrategies" />
+      <recent name="Model.DrawingModel" />
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DependencyInjection" />
+      <recent name="EventObjects" />
+      <recent name="XStreamStaging" />
+      <recent name="Model.AnimationModel" />
+      <recent name="Controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Samuel Keays\mscproject2\src" />
+      <recent name="C:\Users\Samuel Keays\mscproject2\src\XStreamStaging" />
+      <recent name="C:\Users\Samuel Keays\mscproject2" />
+      <recent name="C:\Users\Samuel Keays\mscproject2\lib" />
+      <recent name="C:\Users\Samuel Keays\mscproject2\DefaultDatabase" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="EventObjects" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PDAGUILoader">
+    <configuration default="false" name="All in mscproject2" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="mscproject2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="PDAGUILoader" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="View.PDAGUILoader" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="0011" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mscproject2" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DatabaseModelTests.testAutomatonLoad" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="mscproject2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseModelTests" />
+      <option name="METHOD_NAME" value="testAutomatonLoad" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DatabaseModelTests.testValidationFail" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="mscproject2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseModelTests" />
+      <option name="METHOD_NAME" value="testValidationFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DatabaseModelTests.testDrawingSave" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="mscproject2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DatabaseModelTests" />
+      <option name="METHOD_NAME" value="testDrawingSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.osmorc.OsgiConfigurationType" factoryName="OSGi Bundles" vmParameters="" programParameters="" includeAllBundlesInClassPath="false" workingDir="" useAlternativeJre="false" alternativeJrePath="" frameworkStartLevel="1" defaultStartLevel="5" generateWorkingDir="false">
+      <framework instance="" />
+      <additinalProperties startConsole="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GriffonRunConfigurationType" factoryName="Griffon">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="true" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoogleAppEngineDevServer" factoryName="Local">
+      <server-settings />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="CFConfiguration" factoryName="Remote">
+      <option name="PORT" value="80" />
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+        <data />
+      </server-settings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CfmlUnitRunConfigurationType" factoryName="MXUnit" method="" path="" scope="Component" webpath="">
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2meplugin.run.J2MEConfigurationType" factoryName="J2ME">
+      <module name="" />
+      <USER_OPTIONS />
+      <option name="TARGET_DEVICE_NAME" />
+      <option name="COMMAND_LINE_PARAMETERS" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="JAD_NAME" value="" />
+      <option name="IS_CLASSES" value="false" />
+      <option name="IS_OTA" value="false" />
+      <option name="INSTALL" />
+      <option name="REMOVE" />
+      <option name="RUN" />
+      <option name="TRANSIENT" />
+      <option name="FORCE" />
+      <option name="TO_START" />
+      <option name="SELECTION" value="0" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="GLUE" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="RemoteFlashRunConfigurationType" factoryName="Flash Remote Debug">
+      <option name="BCName" value="" />
+      <option name="moduleName" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="0011" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in mscproject2" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PDAGUILoader" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseModelTests.testAutomatonLoad" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DatabaseModelTests.testValidationFail" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DatabaseModelTests.testDrawingSave" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.PDAGUILoader" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DatabaseModelTests.testDrawingSave" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DatabaseModelTests.testAutomatonLoad" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DatabaseModelTests.testValidationFail" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in mscproject2" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StatisticProjectComponent">
+    <option name="excludeCompilerOutput" value="true" />
+    <option name="excludeIdea9ArtifactDirectory" value="true" />
+    <option name="excludeTargetDirectories" value="true" />
+    <option name="activateWhenOpenProject" value="true" />
+    <option name="excludedDirectories">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+    <option name="fileTypes" value="class;svn-base;svn-work;Extra;gif;png;jpg;jpeg;bmp;tga;tiff;ear;war;zip;jar;iml;iws;ipr;bz2;gz;" />
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4dfccfe-be02-4be7-bad2-7a6f89b2d9d2" name="Default" comment="" />
+      <created>1372188759736</created>
+      <updated>1372188759736</updated>
+    </task>
+    <task id="LOCAL-00001" summary="cycleepsilons">
+      <created>1376698504710</created>
+      <updated>1376698504710</updated>
+    </task>
+    <task id="LOCAL-00002" summary="REFLEXTION">
+      <created>1376780983148</created>
+      <updated>1376780983148</updated>
+    </task>
+    <task id="LOCAL-00003" summary="HANDLES">
+      <created>1376842252545</created>
+      <updated>1376842252545</updated>
+    </task>
+    <task id="LOCAL-00004" summary="OHFUCK">
+      <created>1376860767830</created>
+      <updated>1376860767830</updated>
+    </task>
+    <task id="LOCAL-00005" summary="HEHEHEHEHEHEHEHE">
+      <created>1377038794585</created>
+      <updated>1377038794585</updated>
+    </task>
+    <task id="LOCAL-00006" summary="help">
+      <created>1377222366268</created>
+      <updated>1377222366268</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fuckingloads">
+      <created>1377391360974</created>
+      <updated>1377391360974</updated>
+    </task>
+    <task id="LOCAL-00008" summary="moreblood">
+      <created>1377478147369</created>
+      <updated>1377478147369</updated>
+    </task>
+    <task id="LOCAL-00009" summary="moreblood2">
+      <created>1377478368665</created>
+      <updated>1377478368665</updated>
+    </task>
+    <task id="LOCAL-00010" summary="NONDETERMINISMMONDAYSUCCESS">
+      <created>1377566634278</created>
+      <updated>1377566634278</updated>
+    </task>
+    <task id="LOCAL-00011" summary="ONEWEEKSHITSHITSHITSHIT">
+      <created>1378692905565</created>
+      <updated>1378692905565</updated>
+    </task>
+    <task id="LOCAL-00012" summary="LOGGINGBITCHES">
+      <created>1378867214507</created>
+      <updated>1378867214508</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38573745" sideWeight="0.7269044" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.4732577" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3128039" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37277147" sideWeight="0.6580227" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42949757" sideWeight="0.76580226" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3419773" sideWeight="0.33306322" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21880065" sideWeight="0.15072933" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.47487843" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273906" sideWeight="0.6669368" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3419773" sideWeight="0.6669368" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6709887" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6709887" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21880065" sideWeight="0.50729334" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31442463" sideWeight="0.7504052" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="DSM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" x="94" y="100" width="1096" height="576" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5575365" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901135" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3987034" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="THE END TIMES" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="help" />
+    <MESSAGE value="fuckingloads" />
+    <MESSAGE value="moreblood" />
+    <MESSAGE value="moreblood2" />
+    <MESSAGE value="NONDETERMINISM" />
+    <MESSAGE value="NONDETERMINISMMONDAYSUCCESS" />
+    <MESSAGE value="FINALCHANGES - NOW TESTING" />
+    <MESSAGE value="ONEWEEKSHITSHITSHITSHIT" />
+    <MESSAGE value="LOGGINGBITCHES" />
+    <MESSAGE value="THE END TIMES" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/guava-10.0.1.jar!/com/google/common/eventbus/EventHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="388" selection-end="388" vertical-scroll-proportion="-3.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/guava-10.0.1.jar!/com/google/common/eventbus/SynchronizedEventHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="385" selection-end="385" vertical-scroll-proportion="-5.44">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/guava-10.0.1.jar!/com/google/common/eventbus/EventBus.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-3.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/animation/Timeline.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="16" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/animation/Animation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="163" column="16" selection-start="6971" selection-end="6971" vertical-scroll-proportion="0.3321918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DependencyInjection/AnimationModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1177" selection-end="1177" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1212#1397#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/AnimationModel/Automata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="41" selection-start="387" selection-end="387" vertical-scroll-proportion="240.72">
+          <folding>
+            <element signature="e#719#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PopUpControllers/TransitionEditPopUpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="7" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="39" selection-start="3274" selection-end="3274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/StackIOString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils/DialogueUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="64" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PopUpControllers/HelpController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="7" selection-start="1070" selection-end="1300" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/PDADatabaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="10" selection-start="1445" selection-end="1445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Properties/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="45" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DependencyInjection/ConnectionContextModule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="48" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DependencyInjection/ConnectionContextProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="0.27960527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>mscpro</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mscproject2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="false" />
+    <aspect className="org.aspectj.ajdt.internal.compiler.CompilerAdapter">jar://file:/C:/Users/Samuel%20Keays/mscpro/lib/aspectjtools.jar!/org/aspectj/ajdt/internal/compiler/CompilerAdapter.class</aspect>
+    <aspect className="org.aspectj.ajdt.internal.compiler.lookup.AnonymousClassPublisher">jar://file:/C:/Users/Samuel%20Keays/mscpro/lib/aspectjtools.jar!/org/aspectj/ajdt/internal/compiler/lookup/AnonymousClassPublisher.class</aspect>
+    <aspect className="org.aspectj.ajdt.internal.compiler.lookup.OwningClassSupportForFieldBindings">jar://file:/C:/Users/Samuel%20Keays/mscpro/lib/aspectjtools.jar!/org/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForFieldBindings.class</aspect>
+    <aspect className="org.aspectj.ajdt.internal.compiler.lookup.OwningClassSupportForMethodBindings">jar://file:/C:/Users/Samuel%20Keays/mscpro/lib/aspectjtools.jar!/org/aspectj/ajdt/internal/compiler/lookup/OwningClassSupportForMethodBindings.class</aspect>
+    <aspect className="org.aspectj.ajdt.internal.compiler.lookup.WarnOnSwallowedException">jar://file:/C:/Users/Samuel%20Keays/mscpro/lib/aspectjtools.jar!/org/aspectj/ajdt/internal/compiler/lookup/WarnOnSwallowedException.class</aspect>
+    <aspect className="org.aspectj.ajdt.internal.compiler.parser.AllowAssertAndEnumAsIdentifierTokensInPointcutExpressions">jar://file:/C:/Users/Samuel%20Keays/mscpro/lib/aspectjtools.jar!/org/aspectj/ajdt/internal/compiler/parser/AllowAssertAndEnumAsIdentifierTokensInPointcutExpressions.class</aspect>
+  </component>
+</project>
+

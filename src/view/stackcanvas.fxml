@@ -1,0 +1,3 @@
+<?import javafx.scene.control.ScrollPane?>
+<ScrollPane fx:id="scrollPane"  maxHeight="475.0" maxWidth="103.0" minHeight="475.0" minWidth="103.0" prefHeight="475.0" prefWidth="103.0" xmlns="http://javafx.com/fxml" xmlns:fx="http://javafx.com" fx:controller="Controller.StackController">
+</ScrollPane>

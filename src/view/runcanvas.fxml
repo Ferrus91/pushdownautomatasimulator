@@ -1,0 +1,5 @@
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.ScrollPane?>
+<ScrollPane fx:id="scrollPaneRun" layoutX="0" layoutY="0" minHeight="435.0" minWidth="630.0" xmlns="http://javafx.com/fxml" xmlns:fx="http://javafx.com" fx:controller="Controller.RunController">
+        <Canvas fx:id="canvas" layoutX="0" layoutY="0"/>
+</ScrollPane>

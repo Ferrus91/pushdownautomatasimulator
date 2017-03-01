@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="704.0" prefWidth="1249.0" style="-fx-background-color:black;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller.PDADatabaseController">
+  <TreeView fx:id="treeList" layoutX="111.0" layoutY="30.0" prefHeight="487.0" prefWidth="984.0" />
+  <HBox alignment="CENTER" layoutX="111.0" layoutY="517.0" prefHeight="100.0" prefWidth="984.0" spacing="30.0">
+    <children>
+      <Button id="xmlFile" fx:id="addDirectory" mnemonicParsing="false" prefHeight="48.0" prefWidth="148.0" text="Add Directory">
+        <font>
+          <Font name="Tahoma" size="12.0" fx:id="x1" />
+        </font>
+      </Button>
+      <Button id="load" fx:id="deleteDirectory" font="$x1" mnemonicParsing="false" prefHeight="48.0" prefWidth="148.0" text="Delete Directory" />
+      <Button fx:id="loadAutomata" font="$x1" mnemonicParsing="false" prefHeight="46.0" prefWidth="148.0" text="Load Automata" />
+      <Button fx:id="deleteAutomata" font="$x1" mnemonicParsing="false" prefHeight="46.0" prefWidth="148.0" text="Delete Automata" />
+    </children>
+  </HBox>
+</AnchorPane>

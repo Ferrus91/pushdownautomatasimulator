@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace=""
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <!-- guid type copied from http://stackoverflow.com/questions/687884/what-is-the-correct-way-of-using-the-guid-type-in-a-xsd-file and modified for uuids -->
+    <xs:simpleType name="uuid">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">
+                The representation of a GUID, generally the id of an element.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="doubleuuid">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">
+                The representation of a double UUID, which is the id for a relation in the system.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}-[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="char">
+        <xs:annotation>
+            <xs:documentation xml:lang="en">
+                A single option character.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+            <xs:pattern value=".?"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="Automata" type="AutomataType" >
+        <xs:key name="PKNodeID">
+            <xs:selector xpath="./Node"/>
+            <xs:field xpath="@id"/>
+        </xs:key>
+        <xs:keyref name="FKFromId" refer="PKNodeID">
+            <xs:selector xpath="./Node/Relation"/>
+            <xs:field xpath="@fromNodeId"/>
+        </xs:keyref>
+        <xs:keyref name="FKToId" refer="PKNodeID">
+            <xs:selector xpath="./Node/Relation"/>
+            <xs:field xpath="@toNodeId"/>
+        </xs:keyref>
+    </xs:element>
+    <xs:simpleType name="character" id="character">
+        <xs:restriction base="xs:string">
+            <xs:whiteSpace value="preserve"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="NodeType">
+        <xs:sequence>
+            <xs:element type="RelationType" name="Relation" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="xs:int" name="x" use="required"/>
+        <xs:attribute type="xs:int" name="y" use="required"/>
+        <xs:attribute type="uuid" name="id" use="required"/>
+        <xs:attribute type="xs:string" name="label" use="required"/>
+        <xs:attribute type="xs:boolean" name="isStartNode" use="required"/>
+        <xs:attribute type="xs:boolean" name="isFinalNode" use="required"/>
+        <xs:attribute type="xs:boolean" name="isNodeDown" use="required"/>
+    </xs:complexType>
+    <xs:complexType name="AutomataType">
+        <xs:sequence>
+            <xs:element type="NodeType" name="Node" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="xs:int" name="canvasMultiply"  use="required"/>
+        <xs:attribute type="xs:boolean" name="isLMachine"  use="required"/>
+    </xs:complexType>
+    <xs:complexType name="RelationType">
+        <xs:sequence>
+            <xs:element type="TransitionType" name="Transition" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute type="uuid" name="fromNodeId" use="required">
+        </xs:attribute>
+        <xs:attribute type="uuid" name="toNodeId" use="required">
+        </xs:attribute>
+        <xs:attribute type="doubleuuid" name="key" use="required">
+        </xs:attribute>
+    </xs:complexType>
+    <xs:complexType name="TransitionType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="char" name="transitionChar" use="required" />
+                <xs:attribute type="xs:string" name="pushString" use="required"/>
+                <xs:attribute type="char" name="popChar" use="required"/>
+                <xs:attribute type="xs:string" name="key" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>

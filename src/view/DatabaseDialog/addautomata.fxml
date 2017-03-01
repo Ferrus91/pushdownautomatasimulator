@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane id="AnchorPane" fx:id="content" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="159.00002207031503" prefWidth="516.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Controller.PopUpControllers.AddAutomataDialogController">
+  <children>
+    <Pane layoutX="0.0" layoutY="1.0" prefHeight="159.0" prefWidth="516.0" style="-fx-background-color:black;">
+      <children>
+        <HBox alignment="CENTER" layoutX="14.0" layoutY="106.0" prefHeight="38.9609375" prefWidth="488.0" spacing="50.0">
+          <children>
+            <Button fx:id="addButton" mnemonicParsing="false" prefHeight="38.9609375" prefWidth="93.0" text="Add">
+              <font>
+                <Font name="Tahoma" size="12.0" fx:id="x1" />
+              </font>
+            </Button>
+            <Button fx:id="cancelButton" font="$x1" mnemonicParsing="false" prefHeight="38.9609375" prefWidth="93.0" text="Cancel" />
+          </children>
+        </HBox>
+        <TextField fx:id="textInput" layoutX="133.0" layoutY="69.0" prefWidth="362.000022070315" />
+        <Label layoutX="7.0" layoutY="69.0" prefHeight="21.961037499997474" prefWidth="114.0" text="Automata Name:" textFill="WHITE" />
+        <Label layoutX="7.0" layoutY="24.0" prefHeight="21.961037499997474" prefWidth="114.0" text="Directory Name:" textFill="WHITE" />
+        <ComboBox fx:id="directoryChoiceBox" layoutX="133.0" layoutY="25.0" prefWidth="362.0000999999975" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

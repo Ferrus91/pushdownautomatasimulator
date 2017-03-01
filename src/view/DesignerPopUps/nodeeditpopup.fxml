@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="390.0" style="-fx-background-color: black;" xmlns:fx="http://javafx.com/fxml" fx:controller="Controller.PopUpControllers.NodeEditPopUpController">
+  <children>
+    <TableView id="tran" fx:id="transitionTable" layoutX="24.0" layoutY="93.0" prefHeight="191.0" prefWidth="336.0" style="-fx-background-color: lightgrey;&#10; -fx-font-family: &quot;Tahoma&quot;;">
+      <columns>
+        <TableColumn prefWidth="110.0" text="Transition" fx:id="transCharCol" />
+        <TableColumn prefWidth="110.0" text="Push" fx:id="pushStringCol" />
+        <TableColumn prefWidth="110.0" text="Pop" fx:id="popCharCol" />
+      </columns>
+    </TableView>
+    <HBox alignment="CENTER" layoutX="28.0" layoutY="284.0" prefHeight="100.0" prefWidth="332.0" spacing="20.0">
+      <children>
+        <Button fx:id="addTransitionButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="140.0" style=" -fx-font-family: &quot;Tahoma&quot;;" text="Add" />
+        <Button fx:id="deleteTransitionButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="140.0" style=" -fx-font-family: &quot;Tahoma&quot;;" text="Delete" />
+        <Button fx:id="applyButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="140.0" style="-fx-font-family: &quot;Tahoma&quot;;" text="Apply" />
+      </children>
+    </HBox>
+    <SplitPane dividerPositions="0.37694704049844235" focusTraversable="true" layoutX="36.0" layoutY="402.0" prefHeight="135.0" prefWidth="323.0">
+      <items>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="212.0" prefWidth="123.0">
+          <children>
+            <VBox alignment="CENTER" layoutX="-1.0" layoutY="-1.0" prefHeight="135.0" prefWidth="118.0" spacing="8.0" style="-fx-background-color: black;&#10;">
+              <children>
+                <Label fx:id="startLabel" style=" -fx-font-family: &quot;Tahoma&quot;" text="Start Node" />
+                <Label fx:id="finalLabel" style=" -fx-font-family: &quot;Tahoma&quot;" text="Final Node" />
+                <Label fx:id="loopLabel" prefHeight="37.0" prefWidth="58.0" style=" -fx-font-family: &quot;Tahoma&quot;" text="Loop down" wrapText="true" />
+              </children>
+            </VBox>
+          </children>
+        </AnchorPane>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0" style="-fx-background-color: black&#10;;">
+          <children>
+            <VBox alignment="CENTER" layoutX="-6.0" layoutY="-7.0" prefHeight="133.0" prefWidth="194.0" spacing="15.0">
+              <children>
+                <CheckBox fx:id="startNodeCheckBox" mnemonicParsing="false" />
+                <CheckBox fx:id="finalNodeCheckBox" mnemonicParsing="false" />
+                <CheckBox fx:id="loopDownCheckBox" mnemonicParsing="false" />
+              </children>
+            </VBox>
+          </children>
+        </AnchorPane>
+      </items>
+    </SplitPane>
+    <Label fx:id="label" layoutX="24.0" layoutY="30.0" minHeight="38.0" prefHeight="38.0" style="-fx-font-size: 20px;&#10; -fx-font-family: &quot;Tahoma&quot;;" />
+    <HBox alignment="CENTER_LEFT" layoutX="28.0" layoutY="358.0" prefHeight="66.0" prefWidth="318.0" spacing="20.0">
+      <children>
+        <Label alignment="TOP_CENTER" text="Node Label:" textFill="WHITE">
+          <font>
+            <Font size="15.0" />
+          </font>
+        </Label>
+        <TextField id="" fx:id="labelTextBox" prefWidth="194.0" />
+      </children>
+    </HBox>
+  </children>
+</AnchorPane>
